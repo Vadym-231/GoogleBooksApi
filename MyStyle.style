@@ -1,0 +1,109 @@
+button{
+    height:35px;
+    display: inline-block;
+  color: #8c7373;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: .5em 2em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+}
+.nameMain{
+    font-size: 20px;
+    display: block;
+    font-weight: bold;
+    padding-left: 17px;
+    margin: -2px;
+    width: 103px;
+}
+.imgClass{
+    text-align: center;
+    width: 200px;  
+    margin-bottom: -25px;
+    display: block;
+    height: 200px;
+    position: relative;
+    right: -250px;
+    border: 10px solid black;
+}
+.textStyle
+{
+    display: block;
+    background-color: aliceblue;
+    border: 2px solid #8c7373;
+    margin: -4px;
+    position: relative;
+    text-align: center;
+    width: 600px;
+    right: -93px;
+    border-radius: 1px;
+}
+.textArea{
+     height: 25px;
+     margin-top: 10px;
+    font-size: 16px;
+    padding: 3px;
+    box-sizing: inherit;
+    font-size: 62,5%;
+    display: inline-block;
+    width: 268px;
+}
+ #textArea
+ { 
+     height: 25px;
+    font-size: 16px;
+    padding: 3px;
+    box-sizing: inherit;
+    font-size: 62,5%;
+    display: inline-block;
+    width: 268px;
+}
+.searchStr
+{
+    width: 675px;
+    padding: 4px;
+    position: relative;
+    right: -19%;
+    display: block;
+    text-align: center;
+    background-color: aliceblue;
+    border: 2px solid;
+    border-radius: 60px;
+}
+.block{
+    background-color: beige;
+    width: 700px;
+    position: relative;
+    right: -15%;
+    border: 2px solid black;
+    border-radius: 42px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+#inputForm{
+    position: relative;
+    right: -32%;
+}
+.dropOpen{
+    display:block;
+}
+.dropClose{
+    display:none;
+}
+#fillter{
+    margin-top: 15px;
+    position: relative;
+    left: 40%;
+    text-align: center;
+    padding: 8px;
+    padding-bottom: 24px;
+    background-color: antiquewhite;
+    width: 300px;
+    border-radius: 31px;
+}
