@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html>
- <head>
-  <meta charset="utf-8" />
-  <title>Search books</title>
-  
-   <script src="MyScript.js"></script>
-   <link rel="stylesheet" type="text/css" href="MyStyle.style">
- </head>
- <body>
-  <div id="inputForm">
-      <button onclick="dropFilter()">Показать фильт</button>
-      <label for="searchInput">Enter name of film</label>
-    <input type="text" name="searchInput" id="textArea"/>
-  <button id="button"  onclick="checkData()" onmouseover='style.backgroundColor="#8c7373"' onmouseout='style.backgroundColor="white"'>Пошук</button>
-</div>
-<div id="fillter" class="dropClose">
-  
-    <select name="filter" onchange="checkChenge(this)" class="textArea">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Search books</title>
+
+    <script src="MyScript.js"></script>
+    <link rel="stylesheet" type="text/css" href="MyStyle.css">
+</head>
+
+<body>
+    <div id="inputForm">
+        <button onclick="dropFilter(this)" id="dropMenu" class="button" onmouseover='style.opacity=1' onmouseout='style.opacity=0.8'>Show fillters     <i id='filterIco' class="down"></i></button>
+        <input type="text" name="searchInput" placeholder="Enter name of book" id="textArea" />
+        <button id="button" class="button" onclick="checkData()" onmouseover='style.opacity=0.5' onmouseout='style.opacity=1'>Search</button>
+    </div>
+    <div id="fillter" class="dropClose">
+        <select name="filter" id="filtterSelect" class="textArea">
         <option>partial</option>
         <option>full</option>
         <option>free-ebooks</option>
         <option>paid-ebooks</option>
         <option>ebooks</option>
     </select>
-    <input class="textArea" onchange="checkChenge(this)" name="maxResults" placeholder="Ener max resoult(<48)" type="number"/>
-    <select name="orderBy" onchange="checkChenge(this)"  class="textArea">
+        <input class="textArea" name="maxResults" placeholder="Ener max resoult(<48)" type="number" />
+        <select name="orderBy" placeholder="Select Order" id="orderBy" class="textArea">
         <option>relevance</option>
         <option>newest</option>
     </select>
-    <input class="textArea" onchange="checkChenge(this)" placeholder="Enter lang" name="langRestrict" type="text"/>
-</div>
+        <input class="textArea" placeholder="Enter lang" name="langRestrict" type="text" />
+
+        <input class="button" id="checkBox" onchange="checkBoxChange(this)" name="radio" type="checkbox" />
+        <label for="checkBox">Tab here if you want use default fillter</label>
+    </div>
     <div id="container"></div>
- </body>
+</body>
+
 </html>

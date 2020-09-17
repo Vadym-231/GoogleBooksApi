@@ -1,0 +1,265 @@
+.button {
+    margin-left: 4%;
+    margin-right: 4%;
+    display: inline-block;
+    color: #8c7373;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    vertical-align: middle;
+    outline: none;
+    border: 2px solid;
+    border-radius: 90px;
+    transition: 0.2s;
+    z-index: 4;
+    box-shadow: 5px 5px 5px darkslategrey;
+}
+
+input {
+    outline: none
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.nameMain {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    height: 14px;
+    padding-bottom: 2%;
+    font-size: 18px;
+    border-radius: 35px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-weight: bold;
+    padding-left: 34px;
+}
+
+.contentBlock {
+    display: block;
+}
+
+.imgClass {
+    text-align: center;
+    display: inline-block;
+    width: 74%;
+    margin-bottom: -20px;
+    margin-top: 3%;
+    height: 300px;
+    border-radius: 50px;
+    border: 3px solid grey;
+    box-shadow: 19px 14px 14px darkslategrey;
+}
+
+.textStyle {
+    padding-left: 11px;
+    text-align: right;
+    display: block;
+    background-color: aliceblue;
+    border: 2px solid #8c7373;
+    margin-left: 5%;
+    border-radius: 147px;
+    margin-top: 0%;
+    margin-bottom: -3%;
+    padding-right: 1%;
+    margin-right: 5%;
+    text-align: right;
+    padding: 4px;
+    border-radius: 13px;
+}
+
+.textArea {
+    color: #8c7373;
+    height: 25px;
+    margin-top: 16px;
+    font-size: 16px;
+    border-radius: 7px;
+    padding: 5px;
+    box-sizing: inherit;
+    font-size: 62, 5%;
+    display: inline-block;
+    width: 268px;
+    border: 3px solid #8c7373;
+    outline: none;
+    transition: 0.2s;
+    box-shadow: 5px 5px 6px darkslategrey;
+}
+
+i {
+    border: solid #8c7373;
+    margin-left: 2px;
+    margin: 1px;
+    vertical-align: middle;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.dateBlock {
+    padding-left: -3px;
+    display: inline-block;
+    margin-top: -17%;
+    margin-bottom: 3%;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    height: 18px;
+    font-size: 17px;
+    font-size: 62, 5%;
+    border-radius: 35px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+#textArea {
+    height: 18px;
+    vertical-align: middle;
+    background-color: aliceblue;
+    font-size: 17px;
+    z-index: 4;
+    margin-left: 17%;
+    padding: 7px;
+    margin-right: -4%;
+    color: darkgrey;
+    box-sizing: inherit;
+    font-size: 62, 5%;
+    display: inline-block;
+    width: 36%;
+    border-radius: 35px;
+    box-shadow: 5px 5px 6px darkslategrey;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.block {
+    background-color: beige;
+    width: 40%;
+    opacity: 0.8;
+    margin-left: 24%;
+    padding-top: 1%;
+    margin-right: -2%;
+    display: inline-block;
+    border: 20px solid darkgray;
+    border-radius: 42px;
+    vertical-align: middle;
+    margin-bottom: 5%;
+    z-index: initial;
+    box-shadow: 22px 10px 6px darkslategrey;
+}
+
+.searchStr {
+    background-color: azure;
+    padding-bottom: 1%;
+}
+
+#container {
+    display: block;
+    width: 80%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#fillter label {
+    height: -7px;
+    display: inline-block;
+    width: 180px;
+    padding-bottom: -47px;
+    padding-top: 11px;
+    margin-left: -126px;
+    text-align: left;
+    color: lightsteelblue;
+    font-weight: 700;
+    text-decoration: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+#inputForm label {
+    height: 35px;
+    display: inline-block;
+    color: #8c7373;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 15px;
+    outline: none;
+    transition: 0.2s;
+}
+
+#inputForm {
+    padding: 0%;
+    display: inline-block;
+    position: fixed;
+    width: 80%;
+    z-index: 4;
+    text-align: center;
+}
+
+#fillter {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 3%;
+    top: 3%;
+    opacity: 1;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 24px;
+    width: 300px;
+    border-radius: 31px;
+    border: 2px solid #8c7373;
+    background-image: url("https://images.wallpaperscraft.ru/image/gazeta_shar_steklo_seryy_chb_4338_1600x1200.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+body {
+    background-image: url("https://images.wallpaperscraft.ru/image/kniga_listia_chashka_130317_3840x2400.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.imgCreator {
+    background-image: url("https://images.wallpaperscraft.ru/image/gazeta_shar_steklo_seryy_chb_4338_1600x1200.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.newStyle {
+    margin-top: 6%;
+    border: 1px solid white;
+}
+
+.dropOpen {
+    display: block;
+}
+
+.dropClose {
+    display: none;
+}
+
+.titleBlock {
+    font-size: 15px;
+    display: inline-block;
+    /* border: 3px solid wheat; */
+    border-radius: 10px;
+    background: aliceblue;
+    padding: 5px;
+    padding-bottom: 15px;
+    margin-top: 5%;
+    border: 2px solid #8c7373;
+    width: 88%;
+    box-shadow: 11px 13px 11px darkslategrey;
+}
